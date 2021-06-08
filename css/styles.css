@@ -11090,9 +11090,24 @@ header.masthead .masthead-heading {
   left: 50%;
 }
 
+.presentation-container {
+  position: relative;
+  width: 100%;
+  padding-top: 60%;
+  overflow: hidden;
+}
+.presentation-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .resume-container {
   position: relative;
-  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
